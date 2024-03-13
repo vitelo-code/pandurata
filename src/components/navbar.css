@@ -1,0 +1,8 @@
+.imgShadow {
+  will-change: filter;
+  transition: filter 500ms;
+}
+
+.imgShadow:hover {
+  filter: drop-shadow(0 0 5px #b69fc7);
+}
